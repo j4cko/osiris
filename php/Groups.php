@@ -192,6 +192,10 @@ class Groups
     public function getChildren($id, $only_id = true)
     {
         $el = Groups::findTreeNode($this->tree, $id);
+
+        if (is_null($el))
+            return [];
+
         if (!$only_id)
             return $el;
 
