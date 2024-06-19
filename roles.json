@@ -64,6 +64,11 @@
                 "id": "report.generate",
                 "de": "Berichte generieren",
                 "en": "Generate reports"
+            },
+            {
+                "id": "report.templates",
+                "de": "Vorlagen bearbeiten",
+                "en": "Edit templates"
             }
         ]
     },
@@ -169,6 +174,16 @@
                 "id": "guests.view",
                 "de": "Alle Gäste sehen",
                 "en": "See all guests"
+            },
+            {
+                "id": "guests.see.documents",
+                "de": "Gastdokumente sehen",
+                "en": "See guest documents"
+            },
+            {
+                "id": "guests.edit.documents",
+                "de": "Gastdokumente bearbeiten",
+                "en": "Edit guest documents"
             }
         ]
     }
